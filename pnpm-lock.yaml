@@ -11,6 +11,10 @@ importers:
       astro:
         specifier: ^5.13.2
         version: 5.13.2(@types/node@24.3.0)(rollup@4.46.2)(typescript@5.9.2)
+    devDependencies:
+      '@fontsource-variable/fredoka':
+        specifier: ^5.2.8
+        version: 5.2.8
 
 packages:
 
@@ -209,6 +213,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/fredoka@5.2.8':
+    resolution: {integrity: sha512-oIkGpZS+s0eZhoBzALKENP15KDu9031UNIAp2ZNkKzLDg2f6s7Q4lW4atPx9KxLloQCUZMNGkoitXXGyIhRa2Q==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1603,6 +1610,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.9':
     optional: true
+
+  '@fontsource-variable/fredoka@5.2.8': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
