@@ -1,0 +1,17 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Fredoka Variable", Fredoka, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  background: #ffffff;
+  color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
