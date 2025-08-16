@@ -17,6 +17,9 @@ importers:
       astro:
         specifier: ^5.13.2
         version: 5.13.2(@types/node@24.3.0)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1)
+      open-props:
+        specifier: ^1.7.16
+        version: 1.7.16
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -1367,6 +1370,9 @@ packages:
 
   oniguruma-to-es@4.3.3:
     resolution: {integrity: sha512-rPiZhzC3wXwE59YQMRDodUwwT9FZ9nNBwQQfsd1wfdtlKEyCdRV0avrTcSZ5xlIvGRVPd/cx6ZN45ECmS39xvg==}
+
+  open-props@1.7.16:
+    resolution: {integrity: sha512-9dGv6wtah34stwweJytNEcCB0NG9HeV9wVsyr7Bs8RkKgrx2v0qIRi+9LQa5569nPbOpCOFF5nOxCPdKw30RAA==}
 
   p-limit@6.2.0:
     resolution: {integrity: sha512-kuUqqHNUqoIWp/c467RI4X6mmyuojY5jGutNU0wVTmEOOfcuwLqyMVoAi9MKi2Ak+5i9+nhmrK4ufZE8069kHA==}
@@ -3621,6 +3627,8 @@ snapshots:
       oniguruma-parser: 0.12.1
       regex: 6.0.1
       regex-recursion: 6.0.2
+
+  open-props@1.7.16: {}
 
   p-limit@6.2.0:
     dependencies:

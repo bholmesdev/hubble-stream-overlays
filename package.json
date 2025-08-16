@@ -12,6 +12,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/vercel": "^8.2.6",
     "astro": "^5.13.2",
+    "open-props": "^1.7.16",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
