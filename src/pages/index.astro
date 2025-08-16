@@ -46,5 +46,38 @@ const text = Astro.url.searchParams.get("text");
       0 2px 0 rgba(0, 0, 0, 0.3),
       0 6px 10px rgba(0, 0, 0, 0.35),
       0 12px 24px rgba(0, 0, 0, 0.35);
+
+    /* Bouncing animation */
+    animation: bounce 2s linear(0, 0.5, 1.2, 0.9, 1.05, 0.98, 1.01, 1) infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    4% {
+      transform: translateY(-24px);
+    }
+    8% {
+      transform: translateY(-18px);
+    }
+    12% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    54% {
+      transform: translateY(4px);
+    }
+    58% {
+      transform: translateY(-2px);
+    }
+    62% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 </style>
